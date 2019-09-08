@@ -8,6 +8,16 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "rCr";
+  src: url("fonts/rcr.otf");
+}
+
+@font-face {
+  font-family: "lbv";
+  src: url("fonts/lbv.otf");
+}
+
 body {
   color: #2f2f2f;
   font-family: "Calibri";
@@ -68,7 +78,11 @@ a:active {
   font-weight: bold;
   line-height: 1;
   color: #232127;
+  box-shadow: 2px 2px 3px orchid;
+
 }
+
+
 
 .btn.gradient {
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZGllbnQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojQUEwMEZGOyIgLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM1ODE2ODc7IiAvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IGZpbGw9InVybCgjZ3JhZGllbnQpIiBoZWlnaHQ9IjEwMCUiIHdpZHRoPSIxMDAlIiAvPjwvc3ZnPg==);
@@ -180,7 +194,7 @@ a:active {
   margin-block-end: 1vw;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica bold, Helvetica, sans-serif;
   font-size: 3vw;
   color: #fff;
   top: 1.7vw;
@@ -402,6 +416,7 @@ a:active {
   line-height: 1.2;
   font-weight: bold;
   color: #fff;
+  font-family: "rCr";
 }
 
 .hero-slider .btn {
@@ -510,7 +525,7 @@ a:active {
 
 @media screen and (min-width: 576px) {
   .hero-slider .entry-title {
-    font-size: 42px;
+    font-size: 32px;
   }
 
   .countdown-holder {
