@@ -8,6 +8,10 @@
   font-style: normal;
 }
 
+html::-webkit-scrollbar { width: 0 !important }
+html { overflow: -moz-scrollbars-none; }
+html { -ms-overflow-style: none; }
+
 @font-face {
   font-family: "rCr";
   src: url("fonts/rcr.otf");
@@ -20,9 +24,10 @@
 
 body {
   color: #2f2f2f;
-  background-color: #0d1e45;
-  font-family: 'Share Tech Mono', monospace;
+ /* background-color: #0d1e45;*/
+/*  font-family: 'Share Tech Mono', monospace;*/
 }
+
 
 img {
   vertical-align: baseline;
