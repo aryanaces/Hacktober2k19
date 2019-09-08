@@ -20,7 +20,8 @@
 
 body {
   color: #2f2f2f;
-  font-family: "Calibri";
+  background-color: #0d1e45;
+  font-family: 'Share Tech Mono', monospace;
 }
 
 img {
@@ -200,7 +201,9 @@ a:active {
   top: 1.7vw;
   left: 22vw;
 }
-
+#logotext1 {
+  color: white;
+}
 @media screen and (min-width: 576px) {
   #logotext {
     font-size: 1.5vw;
