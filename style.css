@@ -176,15 +176,29 @@ a:active {
 #logotext {
   position: absolute;
   display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
+  margin-block-start: 1vw;
+  margin-block-end: 1vw;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.5em;
+  font-size: 3vw;
   color: #fff;
-  top: 1px;
-  left: 220px;
+  top: 1.7vw;
+  left: 22vw;
+}
+
+@media screen and (min-width: 576px) {
+  #logotext {
+    font-size: 1.5vw;
+    top: 0vw;
+    left: 11vw;
+  }
+}
+@media screen and (min-width: 768px) {
+  #logotext {
+    left: 11vw;
+    top: 0vw;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -195,8 +209,17 @@ a:active {
   .site-header .site-title img {
     max-height: 999px;
   }
+  #logotext {
+    left: 14vw;
+    top: 0vw;
+  }
 }
-
+@media screen and (min-width: 1400px) {
+  #logotext {
+    left: 14vw;
+    top: 1vw;
+  }
+}
 /*
   Hamburger Menu
 ----------------------------------------*/
