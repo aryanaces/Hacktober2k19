@@ -186,7 +186,9 @@ a:active {
   top: 1.7vw;
   left: 22vw;
 }
-
+#logotext1 {
+  color: white;
+}
 @media screen and (min-width: 576px) {
   #logotext {
     font-size: 1.5vw;
