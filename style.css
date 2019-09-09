@@ -8,9 +8,15 @@
   font-style: normal;
 }
 
-html::-webkit-scrollbar { width: 0 !important }
-html { overflow: -moz-scrollbars-none; }
-html { -ms-overflow-style: none; }
+html::-webkit-scrollbar {
+  width: 0 !important;
+}
+html {
+  overflow: -moz-scrollbars-none;
+}
+html {
+  -ms-overflow-style: none;
+}
 
 @font-face {
   font-family: "rCr";
@@ -24,10 +30,9 @@ html { -ms-overflow-style: none; }
 
 body {
   color: #2f2f2f;
- /* background-color: #0d1e45;*/
-/*  font-family: 'Share Tech Mono', monospace;*/
+  /* background-color: #0d1e45;*/
+  /*  font-family: 'Share Tech Mono', monospace;*/
 }
-
 
 img {
   vertical-align: baseline;
@@ -85,10 +90,7 @@ a:active {
   line-height: 1;
   color: #232127;
   box-shadow: 2px 2px 3px orchid;
-
 }
-
-
 
 .btn.gradient {
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZGllbnQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojQUEwMEZGOyIgLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM1ODE2ODc7IiAvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IGZpbGw9InVybCgjZ3JhZGllbnQpIiBoZWlnaHQ9IjEwMCUiIHdpZHRoPSIxMDAlIiAvPjwvc3ZnPg==);
@@ -411,6 +413,9 @@ a:active {
 .hero-content {
   padding-top: 150px;
   padding-bottom: 120px;
+  background-image: url("images/HackMain.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-content .container,
@@ -866,7 +871,7 @@ a:active {
   font-weight: bold;
   line-height: 1;
   color: #232127;
-  background: url("images/next-events-header-bg.png") no-repeat center;
+  /* background: url("images/next-events-header-bg.png") no-repeat center; */
   text-align: center;
 }
 
