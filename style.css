@@ -626,13 +626,74 @@ a:active {
   margin-right: 18px;
 }
 
+
+
+
+.wave {
+    position: relative;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background-repeat: repeat no-repeat;
+    background-position: 0 bottom;
+    transform-origin: center bottom;
+}
+
+.top{
+  background-size: 50% 100px;
+  height:100px;
+  margin-top: -100px;
+}
+
+.mid{
+   background-size: 50% 100px;
+   height:100px;
+  margin-top: -100px;
+  opacity: 0.7;
+animation :move 8s linear infinite;
+}
+
+@keyframes move{
+ 0% {
+        transform: translateX(0) translateZ(0) scaleY(1)
+    }
+    50% {
+        transform: translateX(-25%) translateZ(0) scaleY(0.55)
+    }
+    100% {
+        transform: translateX(-50%) translateZ(0) scaleY(1)
+    }
+}
+
+.bot{
+   background-size: 50% 100px;
+   height:100px;
+  margin-top: -100px;
+opacity: 0.4;
+animation:move1 12s linear infinite;
+}
+
+
+@keyframes move1{
+0% {
+        transform: translateX(0) translateZ(0) scaleY(1)
+    }
+    50% {
+        transform: translateX(-25%) translateZ(0) scaleY(0.55)
+    }
+    100% {
+        transform: translateX(-50%) translateZ(0) scaleY(1)
+    }
+}
+
 /*--------------------------------------------------------------
 # Homepage - Featured Events
 --------------------------------------------------------------*/
 .homepage-featured-events {
   height: auto;
+  margin-top: 100px;
   padding: 110px 0 150px;
-  background: url("images/Asset-1.png") no-repeat center;
+  background: url("images/a-1.png") no-repeat center;
   background-size: cover !important;
 }
 
