@@ -28,7 +28,8 @@ html {
   src: url("fonts/lbv.otf");
 }
 
-body {overflow-x: hidden;
+body {
+  overflow-x: hidden;
   color: #2f2f2f;
   /* background-color: #0d1e45;*/
   /*  font-family: 'Share Tech Mono', monospace;*/
@@ -592,7 +593,7 @@ a:active {
 # Homepage - Info Section
 --------------------------------------------------------------*/
 .homepage-info-section {
-  padding: 120px 0;
+  padding: 60px 0;
   background: #fff;
 }
 
@@ -626,68 +627,65 @@ a:active {
   margin-right: 18px;
 }
 
-
-.main{
-overflow: hidden;
+.main {
+  overflow: hidden;
 }
-
 
 .wave {
-    position: absolute;
-overflow: hidden;
-    left: 0;
-    width: 200%;
-    height: 100%;
-    background-repeat: repeat ;
-    background-position: 0 bottom;
-    transform-origin: center bottom;
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  background-repeat: repeat;
+  background-position: 0 bottom;
+  transform-origin: center bottom;
 }
 
-.top{
+.top {
   background-size: 50% 100px;
-  height:100px;
+  height: 100px;
   margin-top: -100px;
 }
 
-.mid{
-   background-size: 50% 100px;
-   height:100px;
+.mid {
+  background-size: 50% 100px;
+  height: 100px;
   margin-top: -100px;
   opacity: 0.7;
-animation :move 8s linear infinite;
+  animation: move 8s linear infinite;
 }
 
-@keyframes move{
- 0% {
-        transform: translateX(0) translateZ(0) scaleY(1)
-    }
-    50% {
-        transform: translateX(-25%) translateZ(0) scaleY(0.55)
-    }
-    100% {
-        transform: translateX(-50%) translateZ(0) scaleY(1)
-    }
+@keyframes move {
+  0% {
+    transform: translateX(0) translateZ(0) scaleY(1);
+  }
+  50% {
+    transform: translateX(-25%) translateZ(0) scaleY(0.55);
+  }
+  100% {
+    transform: translateX(-50%) translateZ(0) scaleY(1);
+  }
 }
 
-.bot{
-   background-size: 50% 100px;
-   height:100px;
+.bot {
+  background-size: 50% 100px;
+  height: 100px;
   margin-top: -100px;
-opacity: 0.4;
-animation:move1 12s linear infinite;
+  opacity: 0.4;
+  animation: move1 12s linear infinite;
 }
 
-
-@keyframes move1{
-0% {
-        transform: translateX(0) translateZ(0) scaleY(1)
-    }
-    50% {
-        transform: translateX(-25%) translateZ(0) scaleY(0.55)
-    }
-    100% {
-        transform: translateX(-50%) translateZ(0) scaleY(1)
-    }
+@keyframes move1 {
+  0% {
+    transform: translateX(0) translateZ(0) scaleY(1);
+  }
+  50% {
+    transform: translateX(-25%) translateZ(0) scaleY(0.55);
+  }
+  100% {
+    transform: translateX(-50%) translateZ(0) scaleY(1);
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1171,7 +1169,7 @@ animation:move1 12s linear infinite;
 }
 
 .events-partners {
-  padding: 120px 0;
+  padding: 60px 0;
 }
 
 .events-partners .entry-title {
@@ -1181,7 +1179,7 @@ animation:move1 12s linear infinite;
 .events-partners-logos .event-partner-logo img {
   width: 250px;
   min-width: 220px;
-  margin-top: 80px;
+  margin-top: 60px;
   text-align: center;
 }
 
