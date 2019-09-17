@@ -2324,6 +2324,7 @@ ul.tabs-nav .tab-nav.active {
 
 .footer-logo img {
   max-width: 30%;
+  visibility: visible;
 }
 
 .footer-navigation ul,
