@@ -417,6 +417,8 @@ a:active {
   background-image: url("images/HackMain.png");
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100vw;
+  height: 62.33509234828496vw;
 }
 
 .hero-content .container,
@@ -2387,4 +2389,9 @@ ul.tabs-nav .tab-nav.active {
 
 .back-to-top path {
   fill: #fff;
+}
+@media screen and (max-width: 767px) {
+  .countdown-holder {
+    margin-top: 320px;
+  }
 }
